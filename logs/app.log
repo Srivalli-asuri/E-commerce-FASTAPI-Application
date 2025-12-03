@@ -1,0 +1,139 @@
+2025-12-01 17:33:52,058 | INFO | Registration attempt: srivalli
+2025-12-01 17:41:09,477 | INFO | Registration attempt: string
+2025-12-01 18:00:38,827 | INFO | Registration attempt: string
+2025-12-01 18:09:09,417 | INFO | Registration attempt: string
+2025-12-01 18:09:09,851 | INFO | User registered successfully: string with role user
+2025-12-02 10:14:53,265 | INFO | Starting Uvicorn server...
+2025-12-02 10:15:59,668 | INFO | Registration attempt: string
+2025-12-02 10:15:59,953 | WARNING | Registration failed. Username already exists: string
+2025-12-02 10:16:07,568 | INFO | Registration attempt: string1
+2025-12-02 10:16:07,782 | INFO | User registered successfully: string1 with role user
+2025-12-02 10:16:20,879 | INFO | Registration attempt: string2
+2025-12-02 10:16:21,052 | INFO | User registered successfully: string2 with role admin
+2025-12-02 10:16:34,903 | INFO | Login attempt: string2
+2025-12-02 10:16:35,072 | INFO | Login successful: string2 (role=admin)
+2025-12-02 10:21:42,605 | INFO | Starting Uvicorn server...
+2025-12-02 10:29:34,043 | INFO | Registration attempt: srivalli
+2025-12-02 10:29:34,377 | INFO | User registered successfully: srivalli with role admin
+2025-12-02 10:29:49,509 | INFO | Login attempt: srivalli
+2025-12-02 10:29:49,667 | INFO | Login successful: srivalli (role=admin)
+2025-12-02 10:29:54,988 | INFO | admin srivalli is added new category
+2025-12-02 10:32:18,877 | INFO | ADMIN srivalli adding product: POCO M3 
+2025-12-02 10:32:18,883 | INFO | Product created with admin id:4 , srivalli
+2025-12-02 10:36:56,768 | INFO | Starting Uvicorn server...
+2025-12-02 10:37:21,488 | INFO | Login attempt: srivalli
+2025-12-02 10:37:21,781 | WARNING | Login failed — user not found: srivalli
+2025-12-02 10:37:27,154 | INFO | Login attempt: srivalli
+2025-12-02 10:37:27,310 | INFO | Login successful: srivalli (role=admin)
+2025-12-02 10:39:30,858 | INFO | ADMIN srivalli adding product: POCO M3 PRO
+2025-12-02 10:39:30,862 | INFO | Product created with admin id:4 , srivalli
+2025-12-02 10:39:30,968 | INFO | Admin : 4 created product <app.models.products.Product object at 0x0000017640887850>
+2025-12-02 10:40:11,900 | INFO | admin : srivalli is Fetching all the Users
+2025-12-02 10:42:08,343 | INFO | ADMIN srivalli adding product: DELL LAPTOP
+2025-12-02 10:42:08,343 | INFO | Product created with admin id:4 , srivalli
+2025-12-02 10:42:08,343 | INFO | Admin : 4 created product <app.models.products.Product object at 0x0000017640A96010>
+2025-12-02 10:43:23,813 | INFO | ADMIN srivalli adding product: MIVI Earpods
+2025-12-02 10:43:23,813 | INFO | Product created with admin id:4 , srivalli
+2025-12-02 10:43:23,817 | INFO | Admin : 4 created product <app.models.products.Product object at 0x0000017640A8B9D0>
+2025-12-02 10:45:24,614 | INFO | ADMIN srivalli adding product: Boat - Smart Watch
+2025-12-02 10:45:24,615 | INFO | Product created with admin id:4 , srivalli
+2025-12-02 10:45:30,602 | INFO | ADMIN srivalli adding product: Boat - Smart Watch
+2025-12-02 10:45:30,602 | INFO | Product created with admin id:4 , srivalli
+2025-12-02 10:45:30,602 | INFO | Admin : 4 created product <app.models.products.Product object at 0x0000017640AAAA10>
+2025-12-02 10:46:43,296 | INFO |  admin srivalli is fetching all the categories
+2025-12-02 10:46:55,615 | INFO | User srivalli fetched all products
+2025-12-02 10:47:13,630 | INFO | srivalli is trying to fetching the product with product id 2
+2025-12-02 10:47:13,634 | INFO | user : srivalli is fetching the product with product id 2
+2025-12-02 10:47:28,465 | INFO | admin : srivalli is Fetching all the Users
+2025-12-02 10:48:03,442 | INFO | admin:srivalli is trying to delete the user with user id 1
+2025-12-02 10:48:03,458 | INFO |  admin srivalli deleted the user with id 1 succesfully
+2025-12-02 10:48:21,756 | INFO | admin:srivalli is trying to delete the user with user id 1
+2025-12-02 10:48:21,770 | INFO |  admin srivalli deleted the user with id 1 succesfully
+2025-12-02 10:48:48,974 | INFO | admin:srivalli is trying to delete the user with user id 2
+2025-12-02 10:48:48,986 | INFO |  admin srivalli deleted the user with id 2 succesfully
+2025-12-02 10:53:23,248 | INFO | Starting Uvicorn server...
+2025-12-02 11:03:12,884 | INFO | Starting Uvicorn server...
+2025-12-02 11:03:39,047 | INFO | Login attempt: srivalli
+2025-12-02 11:03:39,358 | INFO | Login successful: srivalli (role=admin)
+2025-12-02 11:16:31,024 | INFO | Login attempt: srivalli
+2025-12-02 11:16:31,126 | INFO | Login successful: srivalli (role=admin)
+2025-12-02 12:18:50,679 | INFO | Starting Uvicorn server...
+2025-12-02 12:31:02,823 | INFO | Login attempt: srivalli
+2025-12-02 12:31:03,141 | INFO | Login successful: srivalli (role=admin)
+2025-12-02 12:31:08,982 | INFO | admin:srivalli is trying to delete the user with user id 2
+2025-12-02 12:31:09,123 | INFO |  admin srivalli deleted the user with id 2 succesfully
+2025-12-02 12:31:28,682 | INFO | admin:srivalli is trying to delete the user with user id 2
+2025-12-02 12:31:28,690 | INFO |  admin srivalli deleted the user with id 2 succesfully
+2025-12-02 12:31:56,187 | INFO | admin:srivalli is trying to delete the user with user id 2
+2025-12-02 12:31:56,192 | INFO |  admin srivalli deleted the user with id 2 succesfully
+2025-12-02 12:32:17,117 | INFO | admin:srivalli is trying to delete the user with user id 3
+2025-12-02 12:32:17,132 | INFO |  admin srivalli deleted the user with id 3 succesfully
+2025-12-02 12:32:32,472 | INFO | admin:srivalli is trying to delete the user with user id 3
+2025-12-02 12:32:32,498 | INFO |  admin srivalli deleted the user with id 3 succesfully
+2025-12-02 12:34:58,999 | INFO | admin:srivalli is trying to delete the user with user id 3
+2025-12-02 12:34:59,002 | WARNING | admin srivalli is deleting the user which is not found
+2025-12-02 12:35:12,245 | INFO | admin:srivalli is trying to delete the user with user id 4
+2025-12-02 12:35:12,259 | INFO |  admin srivalli deleted the user with id 4 succesfully
+2025-12-02 12:48:36,301 | INFO | Starting Uvicorn server...
+2025-12-02 13:07:58,525 | INFO | Starting Uvicorn server...
+2025-12-02 14:14:09,681 | INFO | Login attempt: srivalli
+2025-12-02 14:14:09,973 | INFO | Login successful: srivalli (role=admin)
+2025-12-02 14:15:09,259 | INFO | User srivalli fetched all products
+2025-12-02 14:15:32,809 | INFO | User srivalli fetched all products
+2025-12-02 14:15:41,620 | INFO | User srivalli fetched all products
+2025-12-02 14:17:13,107 | INFO | User srivalli fetched all products
+2025-12-02 14:18:30,389 | INFO |  admin srivalli is fetching all the categories
+2025-12-02 14:22:00,842 | INFO | User srivalli fetched all products
+2025-12-02 14:22:21,944 | INFO | User srivalli fetched all products
+2025-12-02 14:22:26,202 | INFO | User srivalli fetched all products
+2025-12-02 14:30:07,240 | INFO | User srivalli fetched all products
+2025-12-02 14:30:48,095 | INFO | User srivalli fetched all products
+2025-12-02 14:37:55,377 | INFO | Starting Uvicorn server...
+2025-12-02 14:39:57,015 | INFO | Starting Uvicorn server...
+2025-12-02 14:42:58,548 | INFO | Starting Uvicorn server...
+2025-12-02 14:44:59,282 | INFO | Registration attempt: abcd
+2025-12-02 14:44:59,376 | INFO | User registered successfully: abcd with role user
+2025-12-02 14:45:15,734 | INFO | Registration attempt: efgh
+2025-12-02 14:45:15,819 | INFO | User registered successfully: efgh with role admin
+2025-12-02 14:45:28,233 | INFO | Registration attempt: ijkl
+2025-12-02 14:45:28,338 | INFO | User registered successfully: ijkl with role user
+2025-12-02 14:45:37,081 | INFO | Registration attempt: klmn
+2025-12-02 14:45:37,168 | INFO | User registered successfully: klmn with role user
+2025-12-02 14:45:51,701 | INFO | Registration attempt: nopq
+2025-12-02 14:45:51,767 | INFO | User registered successfully: nopq with role admin
+2025-12-02 14:46:00,374 | INFO | Registration attempt: rstu
+2025-12-02 14:46:00,463 | INFO | User registered successfully: rstu with role admin
+2025-12-02 14:46:08,101 | INFO | Registration attempt: uvw
+2025-12-02 14:46:08,187 | INFO | User registered successfully: uvw with role admin
+2025-12-02 14:46:19,918 | INFO | Registration attempt: xyz
+2025-12-02 14:46:20,008 | INFO | User registered successfully: xyz with role user
+2025-12-02 14:55:55,492 | INFO | Starting Uvicorn server...
+2025-12-02 14:58:17,996 | INFO | Starting Uvicorn server...
+2025-12-02 15:10:11,357 | INFO | Starting Uvicorn server...
+2025-12-02 15:10:29,596 | INFO | Login attempt: srivalli
+2025-12-02 15:10:29,899 | INFO | Login successful: srivalli (role=admin)
+2025-12-02 15:16:09,921 | INFO | Starting Uvicorn server...
+2025-12-02 15:16:45,830 | INFO | Login attempt: srivalli
+2025-12-02 15:16:46,421 | INFO | Login successful: srivalli (role=admin)
+2025-12-02 15:18:51,570 | INFO | Starting Uvicorn server...
+2025-12-03 10:12:06,597 | INFO | Starting Uvicorn server...
+2025-12-03 10:12:42,172 | INFO | Registration attempt: aaaa
+2025-12-03 10:16:16,353 | INFO | Starting Uvicorn server...
+2025-12-03 10:16:32,187 | INFO | Registration attempt: string
+2025-12-03 10:23:41,289 | INFO | Starting Uvicorn server...
+2025-12-03 10:23:57,912 | INFO | Registration attempt: string
+2025-12-03 10:27:06,448 | INFO | Registration attempt: string
+2025-12-03 10:32:17,247 | INFO | Registration attempt: string
+2025-12-03 10:33:04,345 | INFO | Starting Uvicorn server...
+2025-12-03 10:33:16,118 | INFO | Registration attempt: string
+2025-12-03 10:35:04,062 | INFO | Starting Uvicorn server...
+2025-12-03 10:35:16,358 | INFO | Registration attempt: string
+2025-12-03 10:35:16,881 | INFO | User registered successfully: string with role user
+2025-12-03 10:52:53,497 | INFO | Starting Uvicorn server...
+2025-12-03 10:54:42,624 | INFO | Login attempt: srivalli
+2025-12-03 10:54:42,949 | WARNING | Login failed — user not found: srivalli
+2025-12-03 10:54:54,095 | INFO | Login attempt: srivalli
+2025-12-03 10:54:54,259 | INFO | Login successful: srivalli (role=admin)
+2025-12-03 10:55:24,172 | INFO | Registration attempt: zxcv
+2025-12-03 10:55:24,350 | INFO | User registered successfully: zxcv with role admin
+2025-12-03 11:07:44,830 | INFO | Starting Uvicorn server...

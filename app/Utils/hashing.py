@@ -1,0 +1,12 @@
+# Authentication methods: password hashing, JWT creation/validation
+from passlib.context import CryptContext
+from jose import JWTError, jwt
+from datetime import datetime, timedelta
+
+pwd_context = CryptContext(schemes=["argon2"], deprecated="auto")
+
+def verify_password(plain_password, hashed_password):
+    return pwd_context.verify(plain_password, hashed_password)
+
+def get_password_hash(password):
+    return pwd_context.hash(password)
