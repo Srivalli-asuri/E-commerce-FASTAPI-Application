@@ -11,8 +11,6 @@ Features
 
 Tech Stack
 
-Folder Structure
-
 Setup Instructions
 
 Running the Server
@@ -41,7 +39,7 @@ Pagination for users and products
 
 
 Tech Stack
-
+-----------
 Framework: FastAPI
 
 Database: PostgreSQL
@@ -54,53 +52,12 @@ Environment Variables: python-dotenv
 
 Logging: Python logging module 
 
+Pagination: 
+----------
+fastapi-pagination
 
-Pagination: fastapi-pagination
---------------------------------
 
-Folder Structure
-----------------
 
-E-commerce Project/
-│
-├── app/
-│   ├── core/
-│   │   ├── dependencies.py        # JWT auth and RBAC dependencies
-│   │   └── logging_config.py      # Logging configuration
-│   ├── db/
-│   │   └── database.py            # SQLAlchemy DB connection & session
-│   ├── models/                    # SQLAlchemy models
-│   │   ├── users.py
-│   │   ├── products.py
-│   │   ├── categories.py
-│   │   ├── cart.py
-│   │   └── config.py              # Model imports
-│   ├── routers/                   # API routes
-│   │   ├── users.py
-│   │   ├── admin.py
-│   │   ├── products.py
-│   │   ├── categories.py
-│   │   └── cart.py
-│   ├── schemas/                   # Pydantic schemas
-│   │   ├── base_model.py
-│   │   ├── user.py
-│   │   ├── product.py
-│   │   ├── category.py
-│   │   ├── carts.py
-│   │   └── token.py
-│   └── services/                  # CRUD operations
-│       ├── User_Service.py
-│       ├── Product_Service.py
-│       ├── Categories_Service.py
-│       └── Cart_Service.py
-├── main.py                         # FastAPI app
-├── requirements.txt                # Dependencies
-├── Dockerfile
-├── docker-compose.yml
-├── .env                             # Environment variables
-├── alembic.ini
-├── logs/                            # Log files
-└── README.md
 
 Setup Instructions
 
@@ -168,7 +125,7 @@ POST /auth/login – Login, get JWT token
 GET /auth/me – Get current logged-in user
 
 Admin
--------
+------
 
 GET /admin/users – Get all users (paginated)
 
